@@ -378,15 +378,15 @@ def main(video_path, output_path, model_path, frame_output_folder):
 
 
 if __name__ == "__main__":
-    model_path = r'C:\Users\Lemonsky0618\YOLOX\yolox_s.pth'
-    frame_output_folder = r'D:\0-IOC-1\VIDEO STREAM\HW3\HW3\output_frames'
+    model_path = r'D:\yolox_s.pth'
+    frame_output_folder = r'D:\output_frames'
 
 
-    #video_path = r'D:\0-IOC-1\VIDEO STREAM\HW3\HW3\video\easy_9.mp4'
-    #output_path = r'D:\0-IOC-1\VIDEO STREAM\HW3\HW3\result\easy_output.mp4'
+    #video_path = r'D:\easy_9.mp4'
+    #output_path = r'D:\easy_output.mp4'
     #main(video_path, output_path, model_path, frame_output_folder)
 
     print("--------------------case2--------------------")
-    video_path = r'D:\0-IOC-1\VIDEO STREAM\HW3\HW3\video\demo.mp4'
-    output_path = r'D:\0-IOC-1\VIDEO STREAM\HW3\HW3\result\demo.mp4'
+    video_path = r'D:\demo.mp4'
+    output_path = r'D:\demo.mp4'
     main(video_path, output_path, model_path, frame_output_folder)
